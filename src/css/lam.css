@@ -1,0 +1,136 @@
+*{
+    text-decoration: none !important;
+    list-style: none;
+
+}
+
+
+/****** FRAMEWORK BY MYSELF ******/
+
+.text-center {
+    text-align: center;
+}
+
+.column-around-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row-around-elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.background-standard {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100vh;
+}
+
+/****** FRAMEWORK BY MYSELF ******/
+
+/****** NAVIGATION ******/
+
+.navbar {
+    top: 0;
+    left: 0px;
+    right: 0px;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    box-shadow: 0 6px 2px -2px lightgray;
+    z-index: 1;
+    padding-right: 220px;
+    padding-left: 220px;
+    background-color: white;
+
+    
+    
+}
+
+.navbar-toggler{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.navbar-brand-img{
+
+    width: 50px !important;
+    object-fit: contain;
+   
+}
+
+.navbar-brand{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-left: 5px !important;
+
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end !important;
+    z-index: 1;
+    background-color: white;
+}
+
+
+
+
+
+.collapse ul li a{
+   color: black;
+   border-bottom: 2px solid transparent;
+   transition: all 225ms ease-in-out;
+   padding-bottom: 3px !important;
+   font-size: 20px;
+}
+.collapse ul li a:hover{
+    border-bottom: 2px solid #008000;
+    transition: all 225ms ease-in-out;
+ }
+
+
+
+
+/****** NAVIGATION ******/
+
+/****** RESPONSIVE ******/
+@media(max-width: 1000px){
+    .navbar-collapse{
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
+@media(max-width: 1400px){
+
+    .navbar {
+     padding-left: 160px;
+     
+    }
+  
+}
+
+@media(max-width: 991px){
+
+    .navbar {
+     padding-left: 0px;
+     padding-right: 0px;
+    }
+  
+}
+
+
+
+
+
+/****** RESPONSIVE ******/

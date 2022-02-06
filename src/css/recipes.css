@@ -1,0 +1,343 @@
+/****** FRAMEWORK BY MYSELF ******/
+
+.text-center {
+    text-align: center;
+}
+
+.column-around-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row-around-elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.background-standard {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100vh;
+}
+
+/****** FRAMEWORK BY MYSELF ******/
+
+/****** GENERAL ******/
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/****** GENERAL ******/
+
+/****** INTRO ******/
+
+.intro {
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+}
+
+.intro-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.name-of-recipe {
+    /* to center the div, but just copy from w3, haven't got it yet */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* to center the div, but just copy from w3, haven't got it yet */
+    width: 64vw;
+    border-bottom: 1px solid lightgray;
+}
+
+.name-of-recipe th {
+    color: white;
+    font-size: 64px;
+    white-space: nowrap;
+    margin-bottom: 32px;
+}
+
+.name-of-recipe tr {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name-of-recipe tr td {
+    color: gray;
+    background-color: lightgray;
+    border-radius: 8px;
+    height: 48px;
+}
+
+.name-of-recipe tr td img {
+    object-fit: contain;
+    width: 32px;
+    padding: 4px;
+}
+
+.name-of-recipe tr td p {
+    font-size: 16px;
+    padding: 5px;
+}
+
+/****** INTRO******/
+
+/****** INGREDIENTS ******/
+
+.ingredients, .instruction, .author {
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    padding: 50px;
+}
+
+.ingredients {
+    margin-top: 100vh;
+    width: 95vw;
+}
+
+.how-many-portions {
+    display: flex;
+    margin: 1vh auto 30px;
+    font-weight: bold;
+}
+
+.how-many-portions #number-portions {
+    padding: 5px;
+}
+
+.how-many-portions #portions {
+    background-color: #008000;
+    color: white;
+    padding: 5px;
+}
+
+.ingredients p {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.ingredients-detail p:nth-child(odd) {
+    background-color: rgb(240, 240, 240);
+}
+
+/****** INGREDIENTS ******/
+
+/****** INSTRUCTION ******/
+
+.instruction h3 {
+    margin: 1vh auto 30px;
+}
+
+.instruction {
+    width: 95vw;
+}
+
+/****** INSTRUCTION ******/
+
+/****** AUTHOR ******/
+
+.author div {
+    display: flex;
+}
+
+.author h3 {
+    margin: 1vh auto 30px;
+}
+
+.author img {
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.author{
+    width: 95vw;
+}
+
+/****** AUTHOR ******/
+
+/****** RESPONSIVE ******/
+
+@media(max-width: 1400px){
+
+    .name-of-recipe th {
+    
+        font-size: 48px;
+     
+    }
+
+    .ingredients, .instruction, .author {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+}
+
+
+@media (max-width:1000px) {
+
+    /* INTRO */
+    .intro {
+        top: 84px;
+    }
+
+    .intro-video {
+        object-fit: cover;
+        width: 100%;
+        height: 70vh;
+    }
+    .name-of-recipe th {
+        font-size: 48px;
+        margin-bottom: 24px;
+    }
+    .name-of-recipe tr td {
+        border-radius: 6px;
+        height: 32px;
+    }
+    .name-of-recipe tr td img {
+        width: 24px;
+        padding: 3px;
+    }
+    .name-of-recipe tr td p {
+        font-size: 12px;
+        padding: 3px;
+    }
+    .ingredients {
+        margin-top: 70vh;
+    }
+
+    .ingredients, .instruction, .author {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    /* INTRO */
+}
+
+@media (max-width:800px) {
+
+    /* INTRO */
+
+
+    .ingredients, .instruction, .author {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .intro-video {
+    
+        height: 60vh;
+    }
+    .name-of-recipe th {
+        font-size: 42px;
+      
+    }
+
+    /* INTRO */
+}
+
+@media (max-width:700px) {
+
+    /* INTRO */
+    .intro-video {
+    
+        height: 50vh;
+    }
+    .name-of-recipe th {
+        font-size: 36px;
+      
+    }
+
+    .ingredients {
+        margin-top: 60vh;
+    }
+
+    /* INTRO */
+}
+
+
+
+@media (max-width:500px) {
+
+    /* INTRO */
+    .intro-video {
+    
+        height: 25vh;
+    }
+    .name-of-recipe th {
+        font-size: 18px !important;
+      
+    }
+
+    .ingredients, .instruction, .author {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .ingredients {
+        margin-top: 50vh !important;
+    }
+
+    /* INTRO */
+}
+@media (max-width:600px) {
+
+    /* INTRO */
+    .intro {
+        position: fixed;
+        top: 80px !important;
+        z-index: -1;
+    }
+
+    .intro-video {
+        width: 100 !important;
+        height: 35vh;
+    }
+    .name-of-recipe th {
+        font-size: 20px;
+      
+    }
+
+    .how-many-portions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1vh auto 30px;
+        font-weight: bold;
+    }
+
+    .intro {
+        top: 50px;
+    }
+    .name-of-recipe th {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .name-of-recipe tr td {
+        border-radius: 4px;
+        height: 24px;
+    }
+    .name-of-recipe tr td img {
+        width: 15px;
+        padding: 2px;
+    }
+    .name-of-recipe tr td p {
+        padding: 2px;
+    }
+    .ingredients {
+        margin-top: 45vh;
+    }
+    /* INTRO */
+}
+
+/****** RESPONSIVE ******/

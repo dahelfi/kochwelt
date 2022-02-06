@@ -1,0 +1,475 @@
+body{
+    margin:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.s1{
+
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.s2{
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+
+.s3{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contentbox1-overview{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin-bottom: 30px;
+}
+
+
+
+.crossiantImage{
+    width: 30vw;
+    height: 20vw;
+    
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 2.5vw !important;
+
+}
+
+.s1Explain{
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5vw !important;
+
+}
+
+
+
+.recepieButton{
+    
+    padding: 10px !important;
+    text-align: center;
+    background-color:#008000;
+    border-radius: 10px;
+    cursor: pointer;
+    border: unset;
+    margin-top: 2.5vw;
+    
+    color: white;
+}
+
+.recepieButton:hover{
+    color: white;
+    background-color: #559D46;
+ 
+}
+
+
+
+.headlineS2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contentS2{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.contentbox2-overview{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+.image1{
+    object-fit: cover;
+    width: 17vw !important;
+    height: 17vw !important;
+    
+    
+    border-radius: 10%;
+    object-position: center;
+}
+
+.imageDescription{
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 15px;
+    color: black;
+}
+
+.contentBox{
+    
+    text-decoration: none;
+}
+
+.contentBox:hover{
+    opacity: 0.5;
+
+}
+
+
+
+.s3Headline{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.s3Content{
+    display: flex;
+    justify-content: center !important;
+    width: 100vw;
+}
+
+.contentbox3-overview{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+.wokImage{
+    margin-left: 30px;
+    width: 17vw !important;
+    height: 17vw !important;
+    
+    object-fit: cover;
+    border-radius: 10%;
+   
+}
+
+.s3Description{
+    margin-right: 30px; 
+}
+
+@media(max-width: 1600px){
+    .contentbox1-overview{
+      width: 65vw;  
+    }
+
+    .crossiantImage{
+        width: 33vw;
+    }
+    .s1Explain{
+        width: 25vw;
+    }
+
+    .image1{
+        object-fit: cover;
+        width: 18vw !important;
+        height: 18vw !important;
+    }
+    
+
+    .contentbox2-overview{
+        width: 65vw;
+    }
+
+    .contentbox3-overview{
+        width: 65vw;
+    }
+
+    .wokImage{
+        width: 18vw !important;
+        height: 18vw !important;
+    }
+
+    .recepieButton{
+    
+        margin-top: 2vw;
+        
+        
+    }
+}
+
+@media(max-width: 1400px){
+    .contentbox1-overview{
+      width: 70vw;  
+    }
+
+    .crossiantImage{
+        width: 36vw;
+        height: 30vh;
+    }
+    .s1Explain{
+        width: 28vw;
+    }
+
+    .image1{
+        object-fit: cover;
+        width: 20vw !important;
+        height: 20vw !important;
+    }
+    
+
+    .contentbox2-overview{
+        width: 70vw;
+    }
+
+    .contentbox3-overview{
+        width: 70vw;
+    }
+
+    .wokImage{
+        width: 20vw !important;
+        height: 20vw !important;
+    }
+    
+    .recepieButton{
+        margin-top: 1.4vw;
+    }
+}
+
+@media(max-width: 1200px){
+    .contentbox1-overview{
+      width: 75vw;  
+    }
+
+    .crossiantImage{
+        width: 40vw;
+        height: 30vh;
+    }
+    .s1Explain{
+        width: 32vw;
+    }
+
+    .image1{
+        object-fit: cover;
+        width: 23vw !important;
+        height: 23vw !important;
+    }
+    
+
+    .contentbox2-overview{
+        width: 75vw;
+    }
+
+    .contentbox3-overview{
+        width: 75vw;
+    }
+
+    .wokImage{
+        width: 23vw !important;
+        height: 23vw !important;
+    }
+
+    .recepieButton{
+        margin-top: 1.25vw;
+    }
+}
+
+@media(max-width:1000px){
+    .contentbox1-overview{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .crossiantImage{
+        width: 70vw;
+        height: 40vh;
+    }
+
+    .s1Headline{
+    margin-top: 20px;    
+    }
+
+    .s1Explain{
+    width: 35vw;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+        align-items: center;
+    }
+
+    .contentbox2-overview{
+        width: 90vw;
+    }
+
+    .contentbox3-overview{
+        width: 90vw;
+    }
+
+    .image1{
+        object-fit: cover;
+        width: 25vw !important;
+        height: 25vw !important;
+        border-radius: 10%;
+        object-position: center;
+    }
+
+    .wokImage{
+        width: 25vw !important;
+        height: 25vw !important;
+    }
+}
+
+@media(max-width: 900px){
+    .contentbox1-overview{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .crossiantImage{
+        width: 75vw;
+        height: 40vh;
+    }
+
+    .s1Headline{
+    margin-top: 20px;    
+    }
+
+    .s1Explain{
+    width: 50vw;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+        align-items: center;
+    }
+
+    .contentbox2-overview{
+        width: 90vw;
+    }
+
+    .contentbox3-overview{
+        width: 90vw;
+    }
+
+    .image1{
+        object-fit: cover;
+        width: 27vw !important;
+        height: 27vw !important;
+
+    }
+
+    .wokImage{
+        width: 27vw !important;
+        height: 27vw !important;
+    }
+}
+
+@media(max-width: 750px){
+    .contentbox2-overview{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contentbox3-overview{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image1{
+        object-fit: cover;
+        width: 50vw !important;
+        height: 50vw !important;
+    }
+
+    .wokImage{
+        width: 50vw !important;
+        height: 50vw !important;
+        margin-left: 0px;
+    }
+
+    
+    .crossiantImage{
+        
+        height: 30vh;
+  
+
+    }
+
+    .s3Description{
+        width: 60vw;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 20px !important;
+    }
+
+}
+
+@media(max-width: 600px){
+    .image1{
+        width: 60vw !important;
+        height: 60vw !important;
+    }
+
+    .wokImage{
+        width: 60vw !important;
+        height: 60vw !important;
+    }
+
+    .s3Description{
+        width: 60vw;
+    }
+
+    .s1Explain{
+        width: 65vw;
+    
+    }
+
+}
+
+@media(max-width: 500px){
+    .image1{
+        width: 70vw !important;
+        height: 70vw !important;
+    }
+
+    .wokImage{
+        width: 70vw !important;
+        height: 70vw !important;
+    }
+
+    .s3Description{
+        width: 70vw;
+    }
+
+}
+
+@media(max-width: 400px){
+    .image1{
+        width: 80vw !important;
+        height: 80vw !important;
+    }
+
+    .wokImage{
+        width: 80vw !important;
+        height: 80vw !important;
+    }
+
+    .s3Description{
+        width: 80vw;
+    }
+
+    .s1Explain{
+        width: 75vw;
+    
+    }
+
+}

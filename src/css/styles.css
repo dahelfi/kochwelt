@@ -1,0 +1,24 @@
+/*
+weiss #fff
+schwarz #000
+hellgruen 559D46
+dunkelgruen #008000
+grau #efefef
+dunkelgrau 403b3b
+
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'sans-serif';
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
